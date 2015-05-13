@@ -1,22 +1,22 @@
-language: node_js
+#language: node_js
 
-node_js:
-  - 0.10
+#node_js:
+ # - 0.10
   #- "2.7"
   #- "3.2"
 
-before_install:
-  - source ~/.nvm/nvm.sh && nvm install $SHIPPABLE_NODE_VERSION
-  - node --version
+#before_install:
+#  - source ~/.nvm/nvm.sh && nvm install $SHIPPABLE_NODE_VERSION
+#  - node --version
 
-install:
-  - npm install
+#install:
+#  - npm install
 
 script:
   - true
   
 #build_image: shippable/minv2
-build_image: gcr.io/infinite-sight-93921/ubuntu1204_nodejs:latest
-commit_container: gcr.io/infinite-sight-93921/sample_node_1
+#build_image: gcr.io/infinite-sight-93921/ubuntu1204_nodejs:latest
+#commit_container: gcr.io/infinite-sight-93921/sample_node_1
 
 #cache: true
