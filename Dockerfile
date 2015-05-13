@@ -1,4 +1,5 @@
-FROM gcr.io/infinite-sight-93921/ubuntu1204_nodejs
+FROM shippableimages/ubuntu1204_python
+#gcr.io/infinite-sight-93921/ubuntu1204_nodejs
 
 COPY . /src
 
