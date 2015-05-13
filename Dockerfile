@@ -1,4 +1,4 @@
-FROM shippableimages/ubuntu1204_python
+FROM shippableimages/ubuntu1204_nodejs
 #gcr.io/infinite-sight-93921/ubuntu1204_nodejs
 
 
